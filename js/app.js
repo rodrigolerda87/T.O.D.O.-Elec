@@ -1165,11 +1165,11 @@ async function fileToPlanoDataUrl(file) {
 // VIEW: Inicio
 // ---------------------------------------------------------------------
 const INSTITUCIONALES = [
-  { nombre: 'AEA · Reglamentación 90364', img: 'https://aea.org.ar/wp-content/uploads/2020/04/90364Conjunto.jpg', url: './docs/AEA_90364.pdf' },
-  { nombre: 'AAIERIC', img: 'https://www.aaieric.org.ar/images/comunicados/Logo%20de%20AAIERIC%20Prensa%20Facebook.jpg', url: 'https://aaieric.org.ar/' },
-  { nombre: 'Prysmian · Cables', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4ehbkRBQMQaD9EFJcQ0hxvhtThNDUF-yldW0v73qKUJQJRMs2v4k8l9uy&s=10', url: 'https://ar.prysmian.com/es' },
-  { nombre: 'Schneider Electric', img: 'https://www.se.com/dam-assets/2hgFSDSuWfHGU9uzMz3I-g/FoPovHKlWpMiU0341m8gZQ/BUILDER.IO%7CSquare/se_logo_social_shared_image_004_BUILDER.IOSquare.webp', url: 'https://www.se.com/ar/es/' },
-  { nombre: 'IRAM · Normas', img: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Positiva_COLOR_fondo-blanco.jpg', url: 'https://www.iram.org.ar/' },
+  { nombre: 'AEA · Reglamentación 90364', img: './assets/banners/aea-90364-banner-21x9.png', url: './docs/AEA_90364.pdf' },
+  { nombre: 'AAIERIC · Precios Sugeridos', img: './assets/banners/aaieric-banner-21x9.png', url: 'https://aaieric.org.ar/costos-de-mano-de-obra/' },
+  { nombre: 'Prysmian · Cables y Conductores', img: './assets/banners/prysmian-banner-21x9.png', url: 'https://ar.prysmian.com/es' },
+  { nombre: 'Schneider Electric · Protecciones', img: './assets/banners/schneider-banner-21x9.png', url: 'https://www.se.com/ar/es/' },
+  { nombre: 'IRAM · Normas de Seguridad', img: './assets/banners/iram-banner-21x9.png', url: 'https://www.iram.org.ar/' },
 ];
 const COMERCIOS_LOCALES = [
   { nombre: 'Don Roberto', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU2o5Nr9m3oile5nXuXH_kpDXHB2byoW8NeQ49W-TORk5Uch0bywbA6zs&s=10' },
